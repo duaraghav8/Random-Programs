@@ -22,7 +22,7 @@ void handle_client (void) {
 	myFile.open ("myfile.txt", ios::in | ios::binary);
 	myFile >> file_str;
 	myFile.close ();
-	cout << file_str << endl;
+	cout << "String to be sent to the client: " << file_str << endl;
 
 	server.sin_family = AF_INET;
 	server.sin_port = htons (50007);
