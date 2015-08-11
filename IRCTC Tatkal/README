@@ -1,0 +1,5 @@
+A Selenium based python Script that increases your chances of booking your tatkal ticket. Features:
+1. Automated Login
+2. Automatic Detail Filling
+3. You need only fill the details of captcha
+4. Timer to automatically launch the application at 10 am
