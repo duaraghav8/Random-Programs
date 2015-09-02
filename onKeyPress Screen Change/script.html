@@ -3,23 +3,23 @@
 		<head>
 			<script language = "JavaScript">
 				document.onkeypress = function () {
-					document.getElementById ('hide').style.display = 'none';
-					document.getElementById ('show').style.display = 'block';
+					document.getElementById ('hide').style.visibility = 'hidden'
+					document.getElementById ('show').style.visibility = 'visible'
 					document.getElementById ('email').focus ();
 				}
 
 				function back () {
 					document.getElementById ('email').value = '';
-					document.getElementById ('hide').style.display = 'block';
-                                        document.getElementById ('show').style.display = 'none';
+					document.getElementById ('hide').style.visibility = 'visible'
+                                        document.getElementById ('show').style.visibility = 'hidden'
 				}
 			</script>
 		</head>
 
 		<body>
 			<center>
-				<div id = "hide" style = "display:block"> Start typing your email ID</div>
-				<div id = "show" style = "display:none">
+				<div id = "hide" style = "visibility : visible"> Start typing your email ID</div>
+				<div id = "show" style = "visibility : hidden">
 					<form>
 						<input id = "email" type = "text" name = "email" />
 						<input type = "submit" value = "Submit" /> <br />
