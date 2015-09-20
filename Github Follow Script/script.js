@@ -1,1 +1,1 @@
-javascript:array = [];buttons = document.getElementsByClassName ('btn btn-sm  js-toggler-target'); for (i = 0; i < buttons.length; i++) { if (buttons [i].title.indexOf ('Follow') > -1) { array.push (buttons [i].title); } } window.alert(array);
+javascript:array = [];buttons = document.getElementsByClassName ('btn btn-sm  js-toggler-target'); for (i = 0; i < buttons.length; i++) { if (buttons [i].title.indexOf ('Follow') > -1) { buttons [i].click (); array.push (buttons [i].title); } } window.alert(array);
